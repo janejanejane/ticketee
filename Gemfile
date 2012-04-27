@@ -5,7 +5,7 @@ gem 'rails', '3.2.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'
 
 
 # Gems used only for assets and not required
@@ -28,6 +28,7 @@ end
 
 group :test do
   gem 'cucumber-rails'
+  gem 'cucumber', '1.0.6'
   gem 'capybara'
   gem 'database_cleaner'
 end
